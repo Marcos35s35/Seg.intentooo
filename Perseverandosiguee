@@ -1,0 +1,16 @@
+<script>
+//wap to 1 to 10 print table.
+document.write("<table border=1 cellspacing='0' cellpadding='4'>")
+for(i=1;i<=20;i++) //outer loop
+{
+document.write("<tr>")
+for(j=1;j<=20;j++) //inner loop
+{
+document.write("<td>")
+document.write(i*j +" ")
+document.write("</td>")
+}
+document.write("</tr>")
+}
+document.write("</table>")
+</script>
